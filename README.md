@@ -39,10 +39,9 @@ These engineering steps are consistent with recommended practices in predictive 
 Visualisations were used to explore data, validate assumptions, and communicate results effectively. These were produced directly in Excel using standard chart types, ensuring accessibility for business stakeholders.
 
 **Key exploratory visuals included:**
-- Histogram of charges, showing a right-skewed distribution with many moderate cases and a smaller group of high-cost individuals.
-- Bar chart of average charges by smoking status, which clearly highlighted that smokers face much higher costs.
-- Scatterplot of BMI versus charges split by smoking, which illustrated that the cost slope with BMI is steeper for smokers.
-- Boxplots of charges by region and sex, confirming that these variables had relatively smaller effects.
+- Histogram of charges, showing a right-skewed distribution with many moderate cases and a smaller group of high-cost individuals. SEE IMG_7260.png.
+- Bar chart of average charges by smoking status, which clearly highlighted that smokers face much higher costs. SEE IMG_7259.png.
+- Scatterplot of BMI versus charges split by smoking, which illustrated that the cost slope with BMI is steeper for smokers. SEE IMG_7261.png.
 
 For model evaluation, a **residual versus predicted plot** was created for the test set, showing that residuals centred around zero but with wider spread at higher charges, indicating heteroscedasticity. A **calibration plot by prediction decile** confirmed that predicted averages aligned closely with actual averages, suggesting good overall fit.
 
